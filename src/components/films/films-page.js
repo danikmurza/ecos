@@ -7,13 +7,10 @@ export default class FilmsPage extends  Component {
 
 
     render() {
-
         return (
-          <div>
+          <div className="page">
               <Api />
-
           </div>
-
         );
     }
 };

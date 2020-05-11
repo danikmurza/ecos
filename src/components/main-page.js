@@ -14,14 +14,12 @@ import FilmsPage from "./films/films-page";
 const MainPage = ({ home, isLogin, registration}) => {
 
 
-    let main = '';
-    let login = '';
-    let reg = '';
 
+ 
 
-        main = 'block';
-        login = 'hide';
-        reg = 'hide';
+    let main = 'block';
+    let login = 'hide';
+    let reg = 'hide';
     if(home) {
         main = 'block';
         login = 'hide';
@@ -39,7 +37,6 @@ const MainPage = ({ home, isLogin, registration}) => {
     return (
         <div className="container">
             <div className={main} >
-
                 <Nav/>
                 <Title/>
                 <Post/>

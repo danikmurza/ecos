@@ -6,15 +6,10 @@ import title from "./components/title/title";
 
 export default class App extends Component {
 
-
-
     state = {
         isLogin: false,
         registration: false,
         home: false
-
-
-
     };
 
     Registration = ({ registration }) => {
@@ -41,7 +36,7 @@ export default class App extends Component {
      const { isLogin, registration, home } = this.state;
         return (
             <div>
-                <div className="container" to='link'>
+                <div className="container" >
                     <header className="blog-header py-3">
                         <ul className="row flex-nowrap justify-content-between align-items-center">
                             <a className="btn btn-sm btn-outline-secondary button" href="/#"
