@@ -13,10 +13,6 @@ import FilmsPage from "./films/films-page";
 
 const MainPage = ({ home, isLogin, registration}) => {
 
-
-
- 
-
     let main = 'block';
     let login = 'hide';
     let reg = 'hide';
@@ -53,6 +49,7 @@ const MainPage = ({ home, isLogin, registration}) => {
         </div>
     );
 };
+
 export default MainPage;
 
 
